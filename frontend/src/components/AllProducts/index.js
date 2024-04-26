@@ -4,6 +4,7 @@ import productsService from "/src/data/products_service";
 import CardProduct from "/src/components/CardProduct";
 
 const AllProducts = () => {
+    
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
