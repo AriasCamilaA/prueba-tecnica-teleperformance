@@ -26,19 +26,7 @@ const productsService = {
             throw error;
         }
     },
-    createDetallePedido : async (detallePedido) => {
-        try {
-            detallePedido.estado = 0;
-            const url_detallesPedidos = url + "detallepedidos/";
-            const response = await axios.post(url_detallesPedidos, detallePedido);
-            const data = response.data;
-            return data;
-        } catch (error) {
-            console.error("API ERROR: REGISTRAR DETALLE PEDIDO: "+error);
-            throw error;
-        }
-        
-    },
+    
 }
 
 export default productsService;

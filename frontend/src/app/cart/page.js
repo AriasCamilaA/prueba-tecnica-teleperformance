@@ -35,12 +35,20 @@ const cartPage = () => {
                         </div>
                     </div>
                     <div className="flex gap-2">
-                        <button className="transition-colors text-sm bg-blue-600 hover:bg-blue-700 p-2 rounded-sm w-full text-white text-hover shadow-md">
-                                FINISH  
-                        </button>
                         <Link href="/" className="transition-colors text-sm bg-white border border-gray-600 p-2 rounded-sm w-full text-gray-700 text-hover shadow-md hover:text-blue-800">
                                 ADD MORE PRODUCTS
                         </Link>
+                    </div>
+                    <div className="flex align-center justify-center">
+                    <script async
+                        src="https://js.stripe.com/v3/buy-button.js">
+                        </script>
+
+                        <stripe-buy-button
+                        buy-button-id="buy_btn_1P9ybCHkGVCshfgp2Xua7W31"
+                        publishable-key="pk_test_51P9xS4HkGVCshfgpaNURHZslYH3KmW5NaJduCqKOOuGEHfMB8fHRPA9hmjaKWbyduZAxPAo1pqZdeEgrvbsbH8WY006Q7zDUMr"
+                        >
+                        </stripe-buy-button>
                     </div>
                 </div>
             </div>
