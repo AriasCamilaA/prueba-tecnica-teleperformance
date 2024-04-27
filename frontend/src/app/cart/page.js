@@ -3,7 +3,7 @@ import ItemCart from "App/components/ItemCart";
 import Link from "next/link";
 import { useAppContext } from "App/context";
 
-const cartPage = () => {
+const CartPage = () => {
     const { totalPrice, cartItems } = useAppContext();
 
     return (
@@ -56,4 +56,4 @@ const cartPage = () => {
     );
 }
 
-export default cartPage;
+export default CartPage;

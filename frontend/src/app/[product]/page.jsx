@@ -6,7 +6,7 @@ import productsService from "App/data/products_service";
 
 const { useEffect, useState } = require("react");
 
-const pageProduct = ({ params }) => {
+const PageProduct = ({ params }) => {
 
     const { addToCart } = useAppContext();
 
@@ -51,4 +51,4 @@ const pageProduct = ({ params }) => {
     );
 }
 
-export default pageProduct;
+export default PageProduct;
