@@ -12,6 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    // Aquí se muestra la barra de navegación y se llama el contenido del resto de la páginas
     <html lang="en">
       <body className={inter.className}>
         <CartProvider>

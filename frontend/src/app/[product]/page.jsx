@@ -21,6 +21,7 @@ const pageProduct = ({ params }) => {
     }, [id]);
 
     return (
+        // Aqui se muestra la información del producto seleccionado
         <main className="mb-2">
             <div className="container mx-auto px-6"></div>
                 <div className="md:flex md:items-center mt-0 bg-gray-800 p-4 text-white">
