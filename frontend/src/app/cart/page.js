@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import ItemCart from "App/components/ItemCart";
 import Link from "next/link";
 import { useAppContext } from "App/context";
